@@ -5,7 +5,7 @@ double GetLenghtSegment(double x1, double y1, double z1, double x2, double y2, d
 {
     double lenght = 0;
     lenght = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2));
-    lenght = Math.Round(lenght, 2);                                                              // для более компактного вывода нашла функцию, которая округляет число до нужного кол-ва знаков
+    lenght = Math.Round(lenght, 2);                                                              // для компактного вывода нашла функцию, которая округляет число до нужного кол-ва знаков
     return lenght;
 }
 
